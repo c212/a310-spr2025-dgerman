@@ -1,0 +1,12 @@
+Please upload here the code and minimal instructions for Part II of the semester project.
+Code for Part II of final project uploaded.
+In this folder run the following commands:
+```
+mvn clean package
+$JAVA_HOME/bin/java -jar target/springboot-crud-1.0.0-SNAPSHOT.war --server.port=55882
+```
+
+This connects to my springboot port 55882. 
+http://silo.cs.indiana.edu:55882/
+
+To implement QOTD, I used the file structure given and replaced the files with the ones implemented in Lab 04. 
